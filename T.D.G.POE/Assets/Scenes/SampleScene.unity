@@ -417,7 +417,7 @@ MonoBehaviour:
   depth: 10
   width: 256
   height: 256
-  scale: 59
+  scale: 20
   offsetX: 100
   offsetY: 100
 --- !u!1001 &1804817638
