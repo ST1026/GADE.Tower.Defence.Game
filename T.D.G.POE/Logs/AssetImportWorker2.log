@@ -1,0 +1,336 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 23945 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Uni/Github/GADE.Tower.Defence.Game/T.D.G.POE
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61480
+Successfully changed project path to: C:/Uni/Github/GADE.Tower.Defence.Game/T.D.G.POE
+C:/Uni/Github/GADE.Tower.Defence.Game/T.D.G.POE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9124]  Target information:
+
+Player connection [9124]  * "[IP] 172.16.204.159 [Port] 0 [Flags] 2 [Guid] 4009802275 [EditorId] 4009802275 [Version] 1048832 [Id] WindowsEditor(7,MKT-M515) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9124] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9124] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 29.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Uni/Github/GADE.Tower.Defence.Game/T.D.G.POE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     11972 MB
+    Driver:   31.0.21923.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008757 seconds.
+- Loaded All Assemblies, in  0.426 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 695ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.743 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.8 KB). Loaded Objects now: 3717.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.534400 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.101600 ms MarkObjects: 2.911400 ms  DeleteObjects: 0.175200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TerrainEditor.cs: 9f8a3336830784131fb35ce737ab956e -> 155b79e3cb37b651870bf14d2eba0b41
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1924176.267974 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Objects/CS_Fountain.fbx
+  artifactKey: Guid(8428a40f00760ca4390979054d6c5e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Objects/CS_Fountain.fbx using Guid(8428a40f00760ca4390979054d6c5e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52b8113e1f441dfe0894b8511a9db9e4') in 0.200626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.372899 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage01.fbx
+  artifactKey: Guid(5e5b53ca3b07322418bd969910a1a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage01.fbx using Guid(5e5b53ca3b07322418bd969910a1a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd272e12f57690c1c950f7bd9a01dfeca') in 0.037821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.432141 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage02.fbx
+  artifactKey: Guid(306d47c373eec6b4ca568a5f4f856327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage02.fbx using Guid(306d47c373eec6b4ca568a5f4f856327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94684aa093bd6ed169fb5f21431167ed') in 0.041525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.053739 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage03.fbx
+  artifactKey: Guid(61861d91157477640b39157db0fc30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/HexagonCastle/CS_Hexagon_Castle_Stage03.fbx using Guid(61861d91157477640b39157db0fc30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b1d539a35bb11b578894ecf7484a4cc') in 0.037925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.573706 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Objects/CS_Red_Block.fbx
+  artifactKey: Guid(ac65c2b0ea23ad3488a4a3466c13c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Objects/CS_Red_Block.fbx using Guid(ac65c2b0ea23ad3488a4a3466c13c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a51f6f8892be775b6c8e37817cf4c800') in 0.034445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.382549 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Objects/CS_RedFlower.fbx
+  artifactKey: Guid(7affbc405e0a0724b90f89f251234de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Objects/CS_RedFlower.fbx using Guid(7affbc405e0a0724b90f89f251234de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8c405e7196d14aab66ae03d5be62e14') in 0.042704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.050881 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Road/CS_Road_curve.fbx
+  artifactKey: Guid(f099f54f0957eb945b3734947c6c7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Road/CS_Road_curve.fbx using Guid(f099f54f0957eb945b3734947c6c7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b12a571345889ad647640bf3b0ccbd6') in 0.051990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.417034 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Road/CS_Road_square.fbx
+  artifactKey: Guid(86ec0b33e76f0e34f9d8e6e11f9d0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Road/CS_Road_square.fbx using Guid(86ec0b33e76f0e34f9d8e6e11f9d0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96bdf5ef65d78a53ad7dc0c23a099083') in 0.058532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.061621 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Objects/CS_Rock.fbx
+  artifactKey: Guid(39bc3dbd3bca3354e81ba5ed67c6e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Objects/CS_Rock.fbx using Guid(39bc3dbd3bca3354e81ba5ed67c6e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '844cf941774c576f07fc5113b019f270') in 0.043640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.044559 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage01.fbx
+  artifactKey: Guid(aee4daf4ee90331409ff98778ce747c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage01.fbx using Guid(aee4daf4ee90331409ff98778ce747c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30e80ee59013850454d4efe716662898') in 0.052901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.371799 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage02.fbx
+  artifactKey: Guid(f27ef226369d4f045a24f745e1cf599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage02.fbx using Guid(f27ef226369d4f045a24f745e1cf599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b86f1e6972208a95d9125f07980e8e0') in 0.037338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.032934 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage03.fbx
+  artifactKey: Guid(a6eb5087beff5924ab4e61f470194742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Castles/SmallCastle/CS_Small_Castle_Stage03.fbx using Guid(a6eb5087beff5924ab4e61f470194742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb72a72a968f798022419ea4aef444f1') in 0.029879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.054430 seconds.
+  path: Assets/Hyper casual cartoon castles/Models/Objects/CS_Tree.fbx
+  artifactKey: Guid(aab4b27bf03ada84f97b7543325de304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper casual cartoon castles/Models/Objects/CS_Tree.fbx using Guid(aab4b27bf03ada84f97b7543325de304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1e50062bc7d9988068b8bd539c5d921') in 0.031314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
