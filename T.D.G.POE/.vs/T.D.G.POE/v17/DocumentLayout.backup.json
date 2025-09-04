@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\terraineditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\terraineditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\terrain\\terraineditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\terrain\\terraineditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\testwaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testwaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,13 +40,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TerrainEditor.cs",
-              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\TerrainEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\TerrainEditor.cs",
-              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\TerrainEditor.cs",
-              "RelativeToolTip": "Assets\\TerrainEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Terrain\\TerrainEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Terrain\\TerrainEditor.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Terrain\\TerrainEditor.cs",
+              "RelativeToolTip": "Assets\\Terrain\\TerrainEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:24:44.773Z",
+              "WhenOpened": "2025-09-04T23:37:12.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestWaves.cs",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\TestWaves.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestWaves.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\TestWaves.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestWaves.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:24:13.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:07:17.729Z",
               "EditorCaption": ""
             }
           ]

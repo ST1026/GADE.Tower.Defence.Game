@@ -386,6 +386,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Ilumisoft/Health System/Demo/Scripts/DemoDummy.cs"
+"Assets/Ilumisoft/Health System/Scripts/Base/HealthComponent.cs"
+"Assets/Ilumisoft/Health System/Scripts/Base/HitboxComponent.cs"
+"Assets/Ilumisoft/Health System/Scripts/Health.cs"
+"Assets/Ilumisoft/Health System/Scripts/Hitbox.cs"
+"Assets/Ilumisoft/Health System/Scripts/UI/Healthbar.cs"
+"Assets/Ilumisoft/Health System/Scripts/UI/PlayerHealthbar.cs"
+"Assets/Scripts/EnemyMovement.cs"
+"Assets/Scripts/Pathways.cs"
+"Assets/Scripts/TestWaves.cs"
+"Assets/Scripts/WaveSpawner.cs"
 "Assets/Terrain/TerrainEditor.cs"
 -langversion:9.0
 /deterministic

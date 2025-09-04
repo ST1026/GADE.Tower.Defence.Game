@@ -8,6 +8,7 @@ public class TerrainEditor : MonoBehaviour
     public int height = 256;
 
     public int scale = 20;
+    public Transform Tower;
 
     public float offsetX = 100f;
     public float offsetY = 100f;
