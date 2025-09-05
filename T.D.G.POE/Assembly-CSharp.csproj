@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Demo\Scripts\DemoDummy.cs" />
+    <Compile Include="Assets\Scripts\Tower.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HitboxComponent.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\PlayerHealthbar.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Hitbox.cs" />
     <Compile Include="Assets\Terrain\TerrainEditor.cs" />

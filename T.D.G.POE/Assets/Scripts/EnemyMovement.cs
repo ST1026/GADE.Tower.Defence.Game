@@ -23,6 +23,23 @@ public class EnemyMovement : MonoBehaviour
     {
         if (pathway == null || pathway.Count == 0)
             return;
+
+        if (currentWaypoint < pathway.Count)
+        {
+            Vector3 target = pathway[currentWaypoint];
+            transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+            //move to next waypoint
+            if (Vector3.Distance(transform.position, target) < speed)
+            {
+                currentWaypoint++;
+            }
+        }
+        else
+        {
+            Debug.Log("Enemy has reached Tower");
+            Destroy(gameObject);
+        }
         
     }
 }
