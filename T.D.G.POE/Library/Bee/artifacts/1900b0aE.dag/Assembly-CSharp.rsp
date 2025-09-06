@@ -399,6 +399,7 @@
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/TowerHealth.cs"
+"Assets/Scripts/Waves.cs"
 "Assets/Terrain/TerrainEditor.cs"
 -langversion:9.0
 /deterministic
