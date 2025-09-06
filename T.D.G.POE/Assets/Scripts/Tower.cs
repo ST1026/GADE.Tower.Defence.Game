@@ -7,7 +7,7 @@ public class Tower : MonoBehaviour
     public float atkRange = 10f;
     public float rof = 1f;
     public GameObject projectile;
-    public Transform Point;
+    public Transform PointofFire;
 
     private float FireTime;
     private List <EnemyMovement> enemyinRange = new List <EnemyMovement>();
@@ -55,9 +55,9 @@ public class Tower : MonoBehaviour
 
     void Shoot(Transform target)
     {
-        if (projectile != null && Point != null)
+        if (projectile != null && PointofFire != null)
         {
-            GameObject bullet = Instantiate(projectile, Point.position, Point.rotation);
+            GameObject bullet = Instantiate(projectile, PointofFire.position, PointofFire.rotation);
             bullet.GetComponent<Projectile>().SetTarget(target);
         }
     }

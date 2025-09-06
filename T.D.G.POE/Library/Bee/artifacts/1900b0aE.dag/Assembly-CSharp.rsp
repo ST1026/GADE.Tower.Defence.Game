@@ -393,11 +393,13 @@
 "Assets/Ilumisoft/Health System/Scripts/Hitbox.cs"
 "Assets/Ilumisoft/Health System/Scripts/UI/Healthbar.cs"
 "Assets/Ilumisoft/Health System/Scripts/UI/PlayerHealthbar.cs"
+"Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/Pathways.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/TestWaves.cs"
 "Assets/Scripts/Tower.cs"
+"Assets/Scripts/TowerHealth.cs"
 "Assets/Scripts/WaveSpawner.cs"
 "Assets/Terrain/TerrainEditor.cs"
 -langversion:9.0

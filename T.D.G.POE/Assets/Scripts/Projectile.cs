@@ -4,15 +4,44 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 20f;
+    public int damage = 1;
+
+    //projectile target
+    private Transform target;
+
+    public void SetTarget(Transform newTarget)
     {
-        
+        target = newTarget;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        //ensure bullet travels to enemy's position
+        Vector3 direction = target.position - transform.position;
+        float distance = speed * Time.deltaTime;
+
+        //check whether projectile misses the target
+        if (direction.magnitude <= distance)
+        {
+            HitTarget();
+            return;
+
+        }
+
+        transform.Translate(direction.normalized * distance, Space.World);
+
+        void HitTarget()
+        {
+
+        }
+
+
     }
 }

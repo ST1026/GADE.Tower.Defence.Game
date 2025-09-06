@@ -67,7 +67,9 @@
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HitboxComponent.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\PlayerHealthbar.cs" />
+    <Compile Include="Assets\Scripts\TowerHealth.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Hitbox.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Terrain\TerrainEditor.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\Healthbar.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HealthComponent.cs" />
