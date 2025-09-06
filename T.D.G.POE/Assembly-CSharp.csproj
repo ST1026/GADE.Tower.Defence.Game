@@ -70,7 +70,7 @@
     <Compile Include="Assets\Scripts\TowerHealth.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Hitbox.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
-    <Compile Include="Assets\Terrain\TerrainEditor.cs" />
+    <Compile Include="Assets\Scripts\TerrainEditor.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\Healthbar.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HealthComponent.cs" />
     <Compile Include="Assets\Scripts\Pathways.cs" />
@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
+    <None Include="Assets\FattyPolyTurretFree\Readme.txt" />
     <None Include="Assets\3D Stylized Goblin(animations+)\Read me.txt" />
     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
   </ItemGroup>

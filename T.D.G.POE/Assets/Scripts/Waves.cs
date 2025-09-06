@@ -18,7 +18,7 @@ public class Waves : MonoBehaviour
     void Start()
     {
         //Start First Wave
-        
+        StartCoroutine(StartWave());
     }
 
     IEnumerator StartWave()
