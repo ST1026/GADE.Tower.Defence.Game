@@ -37,9 +37,17 @@ public class Projectile : MonoBehaviour
 
         transform.Translate(direction.normalized * distance, Space.World);
 
+        //method called when projectile hits enemy
         void HitTarget()
         {
+            EnemyHealth enemyHealth = target.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                //deal damage to enemy
+                enemyHealth.Damage(damage);
+            }
 
+            Destroy(gameObject);
         }
 
 

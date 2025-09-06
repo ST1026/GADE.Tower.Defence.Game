@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Demo\Scripts\DemoDummy.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HitboxComponent.cs" />
@@ -74,7 +73,6 @@
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\Healthbar.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HealthComponent.cs" />
     <Compile Include="Assets\Scripts\Pathways.cs" />
-    <Compile Include="Assets\Scripts\TestWaves.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Health.cs" />
   </ItemGroup>
   <ItemGroup>

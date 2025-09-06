@@ -397,10 +397,8 @@
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/Pathways.cs"
 "Assets/Scripts/Projectile.cs"
-"Assets/Scripts/TestWaves.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/TowerHealth.cs"
-"Assets/Scripts/WaveSpawner.cs"
 "Assets/Terrain/TerrainEditor.cs"
 -langversion:9.0
 /deterministic
