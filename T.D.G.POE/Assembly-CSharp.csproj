@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Waves.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Defender.cs" />
+    <Compile Include="Assets\Scripts\DefenderHealth.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Demo\Scripts\DemoDummy.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HitboxComponent.cs" />
