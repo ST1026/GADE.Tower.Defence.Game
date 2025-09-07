@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Waves.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Waves.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Waves.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",

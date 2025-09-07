@@ -4,62 +4,73 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public float atkRange = 10f;
+    
     public float rof = 1f;
     public GameObject projectile;
     public Transform PointofFire;
 
     private float FireTime;
-    private List <EnemyMovement> enemyinRange = new List <EnemyMovement>();
-
-   
-    void Start()
-    {
-        //setting collider's radius to attack range
-        SphereCollider collider = gameObject.AddComponent<SphereCollider>();
-        collider.isTrigger = true;
-        collider.radius = atkRange;
-
-    }
 
     
     void Update()
     {
-        //Checking if enemies are in range to fire
-        if (enemyinRange.Count > 0 && Time.time >= FireTime)
+        if (Time.time >= FireTime)
         {
-            //targetting
-            EnemyMovement target = enemyinRange[0];
+            
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-            if (target != null)
+            if (enemies.Length > 0)
             {
-                Shoot(target.transform);
-                FireTime = Time.time + 1 / rof;
+                //tower will shoot the closest enemy to it
+                GameObject closestEnemy = GetClosestEnemy(enemies);
+
+                if (closestEnemy != null)
+                {
+                    //aim at enemy
+                    transform.LookAt(closestEnemy.transform);
+                    Shoot(closestEnemy.transform);
+
+                }
             }
-            else
-            {
-                //Remove null enemies from list
-                enemyinRange.RemoveAt(0);
-            }
+
         }
+        
     }
 
-    private void OnTriggerEnter(Collider other)
+    GameObject GetClosestEnemy(GameObject[] enemies)
     {
-        EnemyMovement enemy = other.GetComponent<EnemyMovement>();
-        if (enemy != null && enemyinRange.Contains(enemy))
+        //find the closest enemy in an array of enemies during waves
+        GameObject cEnemy = null;
+        float mDistance = Mathf.Infinity;
+        Vector3 position = transform.position;
+
+        foreach(GameObject enemy in enemies)
         {
-            enemyinRange.Remove(enemy);
-        } 
+            float distance = Vector3.Distance(enemy.transform.position, position);
+            if (distance < mDistance)
+            {
+                cEnemy = enemy;
+                mDistance = distance;
+
+            }
+        }
+        return cEnemy;
+
     }
 
     void Shoot(Transform target)
     {
+        //instantiate bullet and set an enemy as a target
+
         if (projectile != null && PointofFire != null)
         {
             GameObject bullet = Instantiate(projectile, PointofFire.position, PointofFire.rotation);
-            bullet.GetComponent<Projectile>().SetTarget(target);
+            
+            Projectile bulletscript = bullet.GetComponent<Projectile>();
+            if (bulletscript != null)
+            {
+                bulletscript.SetTarget(target);
+            }
         }
     }
-
 }
