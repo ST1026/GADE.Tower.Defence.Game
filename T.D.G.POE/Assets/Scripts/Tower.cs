@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tower : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class Tower : MonoBehaviour
     public float rof = 1f;
     public GameObject projectile;
     public Transform PointofFire;
+
+    
 
     private float FireTime;
 

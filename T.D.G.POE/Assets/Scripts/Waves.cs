@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Waves : MonoBehaviour
 {
     public GameObject enemies;
     public float waveInterval = 5f;
     public float spwnRate = 0.5f;
+
+    public TextMeshPro waveText;
 
     //Paths for enemies
     public List<Vector3> path1;

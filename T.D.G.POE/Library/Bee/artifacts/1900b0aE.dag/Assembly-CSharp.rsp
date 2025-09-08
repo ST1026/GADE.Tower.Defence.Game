@@ -395,6 +395,7 @@
 "Assets/Ilumisoft/Health System/Scripts/UI/PlayerHealthbar.cs"
 "Assets/Scripts/Defender.cs"
 "Assets/Scripts/DefenderHealth.cs"
+"Assets/Scripts/DefenderPlacement.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/Pathways.cs"
