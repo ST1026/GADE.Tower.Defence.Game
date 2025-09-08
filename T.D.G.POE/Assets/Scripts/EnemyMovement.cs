@@ -9,6 +9,8 @@ public class EnemyMovement : MonoBehaviour
     private List<Vector3> pathway;
     private int currentWaypoint = 0;
 
+    public int Damage = 1;
+
     public void SetPathways(List<Vector3> newPathways)
     {
         pathway = newPathways;
@@ -38,8 +40,25 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             Debug.Log("Enemy has reached Tower");
-            Destroy(gameObject);
+            ReachedTower();
         }
         
     }
+
+    private void ReachedTower()
+    {
+        //when the enemy reaches the tower they deal damage to the tower
+        GameObject tower = GameObject.FindGameObjectWithTag("Player");
+        if (tower != null)
+        {
+            TowerHealth towerHealth = tower.GetComponent<TowerHealth>();
+            if (towerHealth != null)
+            {
+                towerHealth.DamageTaken(Damage);
+            }
+
+        }
+    }
+
+
 }

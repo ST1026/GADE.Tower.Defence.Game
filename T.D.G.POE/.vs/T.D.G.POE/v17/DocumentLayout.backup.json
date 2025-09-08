@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\defenderhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\defenderhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\defender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\defender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\pathways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\pathways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,46 +62,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "DefenderHealth.cs",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\DefenderHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DefenderHealth.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\DefenderHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DefenderHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T22:46:03.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Defender.cs",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Defender.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Defender.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Defender.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Defender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T22:46:00.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TowerHealth.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\TowerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerHealth.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\TowerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\TowerHealth.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwCUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-06T12:11:29.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Waves.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Waves.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Waves.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Waves.cs",
               "RelativeToolTip": "Assets\\Scripts\\Waves.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-06T12:11:18.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-06T11:53:42.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
@@ -106,20 +140,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Tower.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tower.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
               "RelativeToolTip": "Assets\\Scripts\\Tower.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T00:02:56.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
@@ -132,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Pathways.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Pathways.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pathways.cs",
@@ -140,8 +174,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pathways.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T23:41:23.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T23:41:23.312Z"
             }
           ]
         }

@@ -26,30 +26,22 @@ public class Projectile : MonoBehaviour
         //ensure bullet travels to enemy's position
         Vector3 direction = target.position - transform.position;
         float distance = speed * Time.deltaTime;
-
-        //check whether projectile misses the target
-        if (direction.magnitude <= distance)
-        {
-            HitTarget();
-            return;
-
-        }
-
         transform.Translate(direction.normalized * distance, Space.World);
-
-        //method called when projectile hits enemy
-        void HitTarget()
-        {
-            EnemyHealth enemyHealth = target.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
-            {
-                //deal damage to enemy
-                enemyHealth.Damage(damage);
-            }
-
-            Destroy(gameObject);
-        }
-
-
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            if (other.TryGetComponent<EnemyHealth>(out EnemyHealth enemyHealth))
+            {
+                enemyHealth.Damage(damage);
+
+            }
+        }
+        Destroy(gameObject);
+        
+    }
+
+
 }
