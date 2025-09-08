@@ -10,7 +10,7 @@ public class Waves : MonoBehaviour
     public float waveInterval = 5f;
     public float spwnRate = 0.5f;
 
-    public TextMeshPro waveText;
+    public TMP_Text waveText;
 
     //Paths for enemies
     public List<Vector3> path1;
@@ -23,6 +23,11 @@ public class Waves : MonoBehaviour
     {
         //Start First Wave
         StartCoroutine(StartWave());
+    }
+
+    void Update()
+    {
+        waveText.text = "Wave: " + waveIndex.ToString();
     }
 
     IEnumerator StartWave()
