@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a2d78b2a3e5bb4698fc78f7451458e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rof: 1
+  rof: 10
   projectile: {fileID: 1627521441993660, guid: 12ea0a574b594264685afffd52fff036, type: 3}
   PointofFire: {fileID: 1439482720}
 --- !u!1 &963194225
@@ -476,11 +476,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae8bc96a150a0e34392166c1cc885b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerHealth: 100
+  towerHealth: 200
   playercoins: 0
   Coins: {fileID: 0}
   coinGenAmount: 1
-  coinGenRate: 60
+  coinGenRate: 30
 --- !u!65 &1229376469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 1820432128}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies: {fileID: 5444449906437062936, guid: 1306b8bc81dbebb4aa0d785a2d30480a, type: 3}
   waveInterval: 10
-  spwnRate: 1
+  spwnRate: 2
   waveText: {fileID: 0}
   path1:
   - {x: 214, y: 7, z: 69}
