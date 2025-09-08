@@ -49,6 +49,7 @@ public class EnemyMovement : MonoBehaviour
     {
         //when the enemy reaches the tower they deal damage to the tower
         GameObject tower = GameObject.FindGameObjectWithTag("Player");
+        GameObject soldier = GameObject.FindGameObjectWithTag("Defender");
         if (tower != null)
         {
             TowerHealth towerHealth = tower.GetComponent<TowerHealth>();
@@ -58,6 +59,15 @@ public class EnemyMovement : MonoBehaviour
             }
 
         }
+        if (soldier != null)
+        {
+            Defender defender = soldier.GetComponent<Defender>();
+            if (defender != null)
+            {
+                defender.DamageTaken(Damage);
+            }
+        }
+
     }
 
 

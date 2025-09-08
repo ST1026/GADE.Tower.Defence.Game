@@ -6,7 +6,6 @@ public class Projectile : MonoBehaviour
 {
     public float speed = 5f;
     public int damage = 1;
-
     //projectile target
     private Transform target;
 
@@ -33,6 +32,8 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            
+            //check if object hit is an enemy then deals damage
             if (other.TryGetComponent<EnemyHealth>(out EnemyHealth enemyHealth))
             {
                 enemyHealth.Damage(damage);
