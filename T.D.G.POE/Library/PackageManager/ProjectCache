@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Uni/Github/GADE.Tower.Defence.Game/T.D.G.POE/Packages
-m_EditorVersion: 2022.3.62f1 (4af31df58517)
+m_EditorVersion: 2022.3.62f2 (7670c08855a9)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.7
   testable: 0
@@ -377,6 +377,7 @@ m_ResolvedPackages:
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
+    - 2.6.2
     compatible:
     - 1.2.4
     - 1.3.1
@@ -410,7 +411,8 @@ m_ResolvedPackages:
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
-    recommended: 2.5.7
+    - 2.6.2
+    recommended: 2.6.2
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -465,7 +467,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-    recommendedVersion: 2.5.1
+    recommendedVersion: 2.6.2
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -633,10 +635,15 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     - 3.0.36
+    - 3.0.37
+    - 3.0.38
     compatible:
     - 3.0.36
-    recommended: 3.0.36
-    deprecated: []
+    - 3.0.37
+    - 3.0.38
+    recommended: 3.0.38
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -4275,12 +4282,14 @@ m_ResolvedPackages:
     - 1.8.22
     - 1.8.23
     - 1.8.24
+    - 1.8.25
     compatible:
     - 1.8.21
     - 1.8.22
     - 1.8.23
     - 1.8.24
-    recommended: 1.8.24
+    - 1.8.25
+    recommended: 1.8.25
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -4688,9 +4697,11 @@ m_ResolvedPackages:
     - 0.1.0-preview.1
     - 0.1.0-preview.2
     - 1.0.0
+    - 1.0.1
     compatible:
     - 1.0.0
-    recommended: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4764,9 +4775,11 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.3
-    recommended: 1.2.3
+    - 1.2.4
+    recommended: 1.2.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4853,9 +4866,11 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.2.7
     compatible:
     - 1.2.6
-    recommended: 1.2.6
+    - 1.2.7
+    recommended: 1.2.7
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4945,10 +4960,12 @@ m_ResolvedPackages:
     - 1.2.6
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     compatible:
     - 1.2.6
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     recommended: 1.2.6
     deprecated: []
   dependencies: []
@@ -5160,10 +5177,12 @@ m_ResolvedPackages:
     - 1.10.2
     - 1.11.4
     - 1.11.5
+    - 1.11.6
     compatible:
     - 1.11.4
     - 1.11.5
-    recommended: 1.11.5
+    - 1.11.6
+    recommended: 1.11.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5268,6 +5287,7 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.0.3
     - 3.1.0
+    - 3.2.0
     compatible:
     - 1.3.3-preview
     - 2.0.1-preview
@@ -5292,6 +5312,7 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.0.3
     - 3.1.0
+    - 3.2.0
     recommended: 
     deprecated: []
   dependencies:
