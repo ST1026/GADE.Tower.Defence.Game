@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a2d78b2a3e5bb4698fc78f7451458e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rof: 10
+  rof: 8
   projectile: {fileID: 1627521441993660, guid: 12ea0a574b594264685afffd52fff036, type: 3}
   PointofFire: {fileID: 1439482720}
 --- !u!1 &840992074
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies: {fileID: 4005682637834069710, guid: 8a71750ef7f67224bbb2658870b97c8c, type: 3}
   waveInterval: 5
-  spwnRate: 2
+  spwnRate: 1
   waveText: {fileID: 514853470}
   path1:
   - {x: 214, y: 7, z: 69}
@@ -1549,6 +1549,14 @@ PrefabInstance:
     - target: {fileID: 1378975506842838710, guid: 9142e0198356d3543adc15257853040d, type: 3}
       propertyPath: m_Name
       value: Soldier_demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350493451191743928, guid: 9142e0198356d3543adc15257853040d, type: 3}
+      propertyPath: rof
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350493451191743928, guid: 9142e0198356d3543adc15257853040d, type: 3}
+      propertyPath: damage
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6579783851138806225, guid: 9142e0198356d3543adc15257853040d, type: 3}
       propertyPath: m_AnchorMax.x
