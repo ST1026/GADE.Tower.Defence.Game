@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    [Header ("Enemy Stats")]
+    [Tooltip ("Speed Stats(Normal = 5f, Fast = 10f, Brute = 3f")]
     public float speed = 5f;
 
     private List<Vector3> pathway;
     private int currentWaypoint = 0;
 
+    [Tooltip("Damage Stats(Normal = 1, Fast = 3, Brute = 5")]
     public int Damage = 1;
 
     public void SetPathways(List<Vector3> newPathways)

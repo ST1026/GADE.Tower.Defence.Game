@@ -493,10 +493,9 @@ MonoBehaviour:
   maxHealth: 50
   curHealth: 0
   defenderHealth: {fileID: 8761136317102009635}
-  damage: 10
-  atkSpeed: 5
+  damage: 5
+  atkSpeed: 20
   atkRange: 500
-  spwnCost: 10
   rof: 1
   projectile: {fileID: 6016235222644875341, guid: e1d4df49f116e2344b5b0acec38b2511, type: 3}
   PointofFire: {fileID: 1378975506842745558}

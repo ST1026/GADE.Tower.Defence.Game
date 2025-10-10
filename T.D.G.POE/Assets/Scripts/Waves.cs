@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Waves : MonoBehaviour
+public class Wave : MonoBehaviour
 {
     public GameObject enemies;
     public float waveInterval = 5f;

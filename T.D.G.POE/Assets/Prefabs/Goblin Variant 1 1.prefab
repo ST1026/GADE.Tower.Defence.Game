@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d3d751bc8eb144eb6406b23171fca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
   Damage: 5
 --- !u!114 &479384701470879475
 MonoBehaviour:
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba49c7c21a05b70428a4092283cdd39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 50
   enemyhealth: {fileID: 8986703638162266808}
 --- !u!4 &5006688137368813794 stripped
 Transform:
