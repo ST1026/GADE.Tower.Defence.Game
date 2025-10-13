@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba49c7c21a05b70428a4092283cdd39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 75
   enemyhealth: {fileID: 8986703638162266808}
 --- !u!4 &5006688137368813794 stripped
 Transform:
