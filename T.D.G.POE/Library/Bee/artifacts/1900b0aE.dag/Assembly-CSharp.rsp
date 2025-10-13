@@ -402,7 +402,6 @@
 "Assets/Scripts/TerrainEditor.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/TowerHealth.cs"
-"Assets/Scripts/WaveManager.cs"
 "Assets/Scripts/Waves.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

@@ -6,18 +6,27 @@ using UnityEngine.UI;
 
 public class Wave : MonoBehaviour
 {
-    public GameObject enemies;
+    [Header ("Enemy Prefabs")]
+    public GameObject goblinPrefab;
+    public GameObject fastPrefab;
+    public GameObject brutePrefab;
+
+    [Header ("Wave Settings")]
     public float waveInterval = 5f;
     public float spwnRate = 0.5f;
 
+    [Header ("UI")]
     public TMP_Text waveText;
+    public TMP_Text enemiesLeftTxt;
+    public int waveIndex = 0;
+    public int enemiesLeft = 0;
 
-    //Paths for enemies
+
+    [Header ("Paths")]
     public List<Vector3> path1;
     public List<Vector3> path2;
     public List<Vector3> path3;
 
-    public int waveIndex = 0;
 
     void Start()
     {
@@ -28,6 +37,7 @@ public class Wave : MonoBehaviour
     void Update()
     {
         waveText.text = "Wave: " + waveIndex.ToString();
+        enemiesLeftTxt.text = "Enemies Left: " + enemiesLeft.ToString();
     }
 
     IEnumerator StartWave()
@@ -37,6 +47,18 @@ public class Wave : MonoBehaviour
 
         //determine number of enemies in wave
         int enemycount = waveIndex * 5;
+
+        int goblinCount = enemycount;
+        int fastGCount = 0;
+        int bruteCount = 0;
+
+        if (waveIndex >= 2)
+        {
+            fastGCount = enemycount / 3;
+            goblinCount = enemycount;
+        }
+
+
 
         for (int i = 0; i < enemycount; i++)
         {
