@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Wave : MonoBehaviour
 {
@@ -48,45 +47,78 @@ public class Wave : MonoBehaviour
         //determine number of enemies in wave
         int enemycount = waveIndex * 5;
 
+        //enemy distrubution
         int goblinCount = enemycount;
         int fastGCount = 0;
         int bruteCount = 0;
 
+        //fast enemies to start spawning from waves 3 onwards
         if (waveIndex >= 2)
         {
-            fastGCount = enemycount / 3;
+            bruteCount = enemycount;
             goblinCount = enemycount;
         }
 
-
-
-        for (int i = 0; i < enemycount; i++)
+        //brute enemy spawns from wave 4 onwards
+        if (waveIndex >= 3)
         {
-            //have enemies select one of the three paths randomly
-            int chosenPath = Random.Range(1, 4);
-            List<Vector3> selectedPath = Path(chosenPath);
+            bruteCount = enemycount / 3;
+            fastGCount = (enemycount - bruteCount) / 2;
+            goblinCount = enemycount;
+        }
 
-            GameObject Enemy = Instantiate(enemies, selectedPath[0], Quaternion.identity);
-            EnemyMovement enemymovement = Enemy.GetComponent<EnemyMovement>();
-            
-            if (enemymovement != null)
-            {
-                enemymovement.SetPathways(selectedPath);
-            }
+        enemiesLeft = enemycount;
 
-            //wait period before another enemy spawns
+        for (int i = 0; i < goblinCount; i++)
+        {
+            SpawnEnemies(goblinPrefab);
             yield return new WaitForSeconds(spwnRate);
+        }
 
+        for (int i = 0; i < fastGCount; i++)
+        {
+            SpawnEnemies(fastPrefab);
+            yield return new WaitForSeconds(spwnRate);
+        }
+
+        for (int i = 0; i < bruteCount; i++)
+        {
+            SpawnEnemies(brutePrefab);
+            yield return new WaitForSeconds(spwnRate);
+        }
+
+        while (enemiesLeft > 0)
+        {
+            yield return null;
         }
 
         //wait period for next wave
         yield return new WaitForSeconds(waveInterval);
         StartCoroutine(StartWave());
+    }
 
+    private void SpawnEnemies(GameObject enemyPrefab)
+    {
+        //enemies select one of three pathways to get to the tower at random
+        int chosenPath = Random.Range(1, 4);
+        List<Vector3> pathSelected = Path(chosenPath);
 
+        GameObject Enemy = Instantiate(enemyPrefab, pathSelected[0], Quaternion.identity);
+        EnemyMovement enemyMovement = Enemy.GetComponent<EnemyMovement>();
 
+        if (enemyMovement != null)
+        {
+            enemyMovement.SetPathways(pathSelected);
+        }
+    }
+
+    public void EnemyDefeated()
+    {
+        enemiesLeft--;
+        Debug.Log("Enemies Remaining" + enemiesLeft);
 
     }
+
 
     //function to return correct path
     private List <Vector3> Path (int pathChosen)
