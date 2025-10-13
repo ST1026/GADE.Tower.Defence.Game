@@ -53,16 +53,16 @@ public class Wave : MonoBehaviour
         int bruteCount = 0;
 
         //fast enemies to start spawning from waves 3 onwards
-        if (waveIndex >= 2)
+        if (waveIndex >= 3)
         {
-            bruteCount = enemycount;
+            fastGCount = enemycount / 3;
             goblinCount = enemycount;
         }
 
         //brute enemy spawns from wave 4 onwards
-        if (waveIndex >= 3)
+        if (waveIndex >= 4)
         {
-            bruteCount = enemycount / 3;
+            bruteCount = enemycount / 4;
             fastGCount = (enemycount - bruteCount) / 2;
             goblinCount = enemycount;
         }
