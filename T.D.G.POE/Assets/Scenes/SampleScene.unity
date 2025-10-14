@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Enemies left: 000'
+  m_text: 'Enemies left: 00'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -705,53 +705,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &708387932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 708387934}
-  - component: {fileID: 708387935}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &708387934
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708387932}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 228.03668, y: 7.306368, z: 225.75114}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &708387935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708387932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a2d78b2a3e5bb4698fc78f7451458e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rof: 8
-  projectile: {fileID: 1627521441993660, guid: 12ea0a574b594264685afffd52fff036, type: 3}
-  PointofFire: {fileID: 1439482720}
 --- !u!1 &840992074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,8 +1239,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1229376466}
-  - component: {fileID: 1229376468}
   - component: {fileID: 1229376469}
+  - component: {fileID: 1229376468}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Player
@@ -1329,7 +1282,7 @@ MonoBehaviour:
   healthslider: {fileID: 1532270607}
   playercoins: 0
   Coins: {fileID: 1492993816}
-  coinGenAmount: 5
+  coinGenAmount: 2
   coinGenRate: 30
 --- !u!65 &1229376469
 BoxCollider:
@@ -1350,8 +1303,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 40.196487, y: 35.47017, z: 45.035675}
-  m_Center: {x: 7.4538803, y: 21.81649, z: -6.7681274}
+  m_Size: {x: 40.196487, y: 13.966497, z: 39.524918}
+  m_Center: {x: 7.4538803, y: 11.064654, z: -4.0127487}
 --- !u!1 &1270510974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Coins: 000'
+  m_text: 'Coins: 00'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1918,6 +1871,76 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1577651034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577651037}
+  - component: {fileID: 1577651036}
+  - component: {fileID: 1577651035}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1577651035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577651034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1994d1633f0cdb47aefafeb14d1406b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderSelected: 0
+  soldierPref: {fileID: 1378975506842838710, guid: 9142e0198356d3543adc15257853040d, type: 3}
+  soldierCost: 3
+  soldierCoolDown: 5
+  wolfPref: {fileID: 7676197290490818463, guid: bb6d81c4570f0b14994c97ada5fe5a73, type: 3}
+  wolfCost: 5
+  wolfCooldown: 7
+  robotPref: {fileID: 4095153642553314209, guid: e9961b55d99bbfd48a5afe6605612a41, type: 3}
+  robotCost: 7
+  robotCooldown: 9
+--- !u!114 &1577651036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577651034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a2d78b2a3e5bb4698fc78f7451458e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rof: 1
+  projectile: {fileID: 6016235222644875341, guid: e1d4df49f116e2344b5b0acec38b2511, type: 3}
+  PointofFire: {fileID: 1439482720}
+--- !u!4 &1577651037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577651034}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 178.43494, y: 12.8082285, z: 249.10487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1721581866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2214,7 +2237,7 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1820432127}
-  - {fileID: 708387934}
+  - {fileID: 1577651037}
   - {fileID: 1229376466}
   - {fileID: 939908619}
   - {fileID: 1270510977}

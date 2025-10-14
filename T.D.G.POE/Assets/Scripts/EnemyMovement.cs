@@ -26,6 +26,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+
         if (pathway == null || pathway.Count == 0)
             return;
 
@@ -38,6 +39,7 @@ public class EnemyMovement : MonoBehaviour
             if (Vector3.Distance(transform.position, target) < speed)
             {
                 currentWaypoint++;
+                AttackDefenders();
             }
         }
         else
@@ -48,23 +50,12 @@ public class EnemyMovement : MonoBehaviour
         
     }
 
-    private void ReachedTower()
+    private void AttackDefenders()
     {
-        //when the enemy reaches the tower they deal damage to the tower
-        GameObject tower = GameObject.FindGameObjectWithTag("Player");
         GameObject soldier = GameObject.FindGameObjectWithTag("Defender");
         GameObject wolf = GameObject.FindGameObjectWithTag("Defender");
         GameObject robot = GameObject.FindGameObjectWithTag("Defender");
 
-        if (tower != null)
-        {
-            TowerHealth towerHealth = tower.GetComponent<TowerHealth>();
-            if (towerHealth != null)
-            {
-                towerHealth.DamageTaken(Damage);
-            }
-
-        }
         if (soldier != null || wolf != null || robot != null)
         {
             Defender defender1 = soldier.GetComponent<Defender>();
@@ -75,14 +66,30 @@ public class EnemyMovement : MonoBehaviour
             {
                 defender1.DamageTaken(Damage);
             }
-            if (defender2 != null)
+            else if (defender2 != null)
             {
                 defender2.DamageTaken(Damage);
             }
-            if (defender3 != null)
+            else if (defender3 != null)
             {
                 defender3.DamageTaken(Damage);
             }
+        }
+    }
+
+    private void ReachedTower()
+    {
+        //when the enemy reaches the tower they deal damage to the tower
+        GameObject tower = GameObject.FindGameObjectWithTag("Player");
+
+        if (tower != null)
+        {
+            TowerHealth towerHealth = tower.GetComponent<TowerHealth>();
+            if (towerHealth != null)
+            {
+                towerHealth.DamageTaken(Damage);
+            }
+
         }
 
     }
