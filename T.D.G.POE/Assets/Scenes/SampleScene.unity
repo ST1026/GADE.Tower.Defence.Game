@@ -1923,7 +1923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a2d78b2a3e5bb4698fc78f7451458e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rof: 1
+  rof: 0.01
   projectile: {fileID: 6016235222644875341, guid: e1d4df49f116e2344b5b0acec38b2511, type: 3}
   PointofFire: {fileID: 1439482720}
 --- !u!4 &1577651037
