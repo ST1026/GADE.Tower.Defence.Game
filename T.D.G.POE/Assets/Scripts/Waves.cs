@@ -55,7 +55,7 @@ public class Wave : MonoBehaviour
         //fast enemies to start spawning from waves 3 onwards
         if (waveIndex >= 3)
         {
-            fastGCount = enemycount / 3;
+            fastGCount = enemycount / 2;
             goblinCount = enemycount;
         }
 
