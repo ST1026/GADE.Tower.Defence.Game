@@ -1284,6 +1284,17 @@ MonoBehaviour:
   Coins: {fileID: 1492993816}
   coinGenAmount: 2
   coinGenRate: 30
+  currentLvl: 1
+  lvlCost: 0000000064000000fa000000
+  lvl1Vx: {fileID: 1229376465}
+  lvl1maxhealth: 100
+  lvl1rof: 1
+  lvl2Vx: {fileID: 919132149155446097, guid: f3972a019ea245d47b405fe50ccc3cbe, type: 3}
+  lvl2maxhealth: 200
+  lvl2rof: 2
+  lvl3Vx: {fileID: 919132149155446097, guid: 075850726f884584bbe4207a4334d2e3, type: 3}
+  lvl3maxhealth: 350
+  lvl3rof: 4
 --- !u!65 &1229376469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1902,6 +1913,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defenderSelected: 0
+  soldierLVL: 1
+  wolfLVL: 1
+  robotLVL: 1
   soldierPref: {fileID: 1378975506842838710, guid: 9142e0198356d3543adc15257853040d, type: 3}
   soldierCost: 3
   soldierCoolDown: 5

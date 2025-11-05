@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class Tower : MonoBehaviour
 {
     
-    public float rof = 1f;
+    public float rof;
+    public int damage;
     public GameObject projectile;
     public Transform PointofFire;
 
@@ -32,13 +33,10 @@ public class Tower : MonoBehaviour
                 {
                     //aim at enemy
                     transform.LookAt(closestEnemy.transform);
-                    Shoot(closestEnemy.transform);
-
+                    Shoot(closestEnemy.transform, damage);
                 }
             }
-
         }
-        
     }
 
     GameObject GetClosestEnemy(GameObject[] enemies)
@@ -55,14 +53,12 @@ public class Tower : MonoBehaviour
             {
                 cEnemy = enemy;
                 mDistance = distance;
-
             }
         }
         return cEnemy;
-
     }
 
-    void Shoot(Transform target)
+    void Shoot(Transform target, int damage)
     {
         //instantiate bullet and set an enemy as a target
 
@@ -73,7 +69,7 @@ public class Tower : MonoBehaviour
             Projectile bulletscript = bullet.GetComponent<Projectile>();
             if (bulletscript != null)
             {
-                bulletscript.SetTarget(target);
+                bulletscript.BulletStats(target, damage);
             }
         }
     }

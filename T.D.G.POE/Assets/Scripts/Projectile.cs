@@ -5,13 +5,14 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float speed = 5f;
-    public int damage = 1;
+    public int bulletdamage;
     //projectile target
     private Transform target;
 
-    public void SetTarget(Transform newTarget)
+    public void BulletStats(Transform newTarget, int dmgvalue)
     {
         target = newTarget;
+        bulletdamage = dmgvalue;
     }
 
     void Update()
@@ -36,8 +37,7 @@ public class Projectile : MonoBehaviour
             //check if object hit is an enemy then deals damage
             if (other.TryGetComponent<EnemyHealth>(out EnemyHealth enemyHealth))
             {
-                enemyHealth.Damage(damage);
-
+                enemyHealth.Damage(bulletdamage);
             }
         }
         Destroy(gameObject);
