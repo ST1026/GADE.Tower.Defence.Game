@@ -393,6 +393,7 @@
 "Assets/Ilumisoft/Health System/Scripts/Hitbox.cs"
 "Assets/Ilumisoft/Health System/Scripts/UI/Healthbar.cs"
 "Assets/Ilumisoft/Health System/Scripts/UI/PlayerHealthbar.cs"
+"Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Defender.cs"
 "Assets/Scripts/DefenderPlacement.cs"
 "Assets/Scripts/EnemyHealth.cs"
