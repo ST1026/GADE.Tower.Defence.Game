@@ -26,7 +26,7 @@ public class Wave : MonoBehaviour
     public List<Vector3> path2;
     public List<Vector3> path3;
 
-
+    public AudioManager audioManager;
     void Start()
     {
         //Start First Wave
