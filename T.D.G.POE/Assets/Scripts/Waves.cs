@@ -25,8 +25,6 @@ public class Wave : MonoBehaviour
     public List<Vector3> path1;
     public List<Vector3> path2;
     public List<Vector3> path3;
-
-    public AudioManager audioManager;
     void Start()
     {
         //Start First Wave
@@ -95,6 +93,13 @@ public class Wave : MonoBehaviour
         //wait period for next wave
         yield return new WaitForSeconds(waveInterval);
         StartCoroutine(StartWave());
+
+        AudioManager audio = FindObjectOfType<AudioManager>();
+        if(audio != null)
+        {
+            audio.WaveMusic(waveIndex);
+        }
+
     }
 
     private void SpawnEnemies(GameObject enemyPrefab)

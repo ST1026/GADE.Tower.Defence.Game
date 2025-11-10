@@ -12,7 +12,7 @@ public class EnemyMovement : MonoBehaviour
     private int currentWaypoint = 0;
 
     [Tooltip("Damage Stats(Normal = 1, Fast = 3, Brute = 5")]
-    public int Damage = 1;
+    public int Damage = 10;
 
     public void SetPathways(List<Vector3> newPathways)
     {
