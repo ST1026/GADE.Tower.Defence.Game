@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|c:\\uni\\github\\gade.tower.defence.game\\t.d.g.poe\\assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\defender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\defender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7814E8E-D1BD-7C81-74DB-35AE37038313}|Assembly-CSharp.csproj|C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\assets\\scripts\\waves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,19 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tower.cs",
-              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower.cs",
-              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tower.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwCMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:59:48.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TowerHealth.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\TowerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerHealth.cs",
@@ -90,8 +78,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TowerHealth.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAkwHwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T12:11:29.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T12:11:29.619Z"
             },
             {
               "$type": "Document",
@@ -107,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Defender.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Defender.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Defender.cs",
@@ -131,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
@@ -139,8 +126,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T12:36:03.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T12:36:03.774Z"
             },
             {
               "$type": "Document",
@@ -156,28 +142,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wCgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T23:34:29.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
               "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T12:13:38.821Z"
+              "WhenOpened": "2025-11-09T12:13:38.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tower.cs",
+              "DocumentMoniker": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower.cs",
+              "ToolTip": "C:\\Uni\\Github\\GADE.Tower.Defence.Game\\T.D.G.POE\\Assets\\Scripts\\Tower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:59:48.973Z"
             },
             {
               "$type": "Document",
